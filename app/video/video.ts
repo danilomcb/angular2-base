@@ -5,13 +5,13 @@
 export class Video {
     id: number;
     titulo: string;
-    url: string;
+    stringUrl: string;
     desc: string;
 
-    constructor(id: number, titulo: string, url: string, desc?: string) {
+    constructor(id: number, titulo: string, stringUrl: string, desc?: string) {
         this.id = id;
         this.titulo = titulo;
-        this.url = url;
+        this.stringUrl = stringUrl;
         this.desc = desc;
     }
 }

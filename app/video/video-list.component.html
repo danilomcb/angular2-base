@@ -6,7 +6,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr *ngFor="let v of videos">
+    <tr *ngFor="let v of videos" (click)="onSelect(v)">
         <td>{{v.id}}</td>
         <td>{{v.titulo}}</td>
     </tr>
